@@ -8,8 +8,7 @@ const recipe = {
     // Add your code here
     title: "Mole",
     servings: 2,
-    ingredients: ["cinnamon", "cumin", "cocoa"]
-    return ingredients.forEach(value)
+    ingredients.forEach(Array): ["cinnamon", "cumin", "cocoa"]
 }
 
 // DO NOT EDIT CODE BELOW
