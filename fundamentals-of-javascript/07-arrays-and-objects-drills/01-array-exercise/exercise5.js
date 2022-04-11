@@ -7,7 +7,7 @@ const contains = (array, target) => {
     if (array[i] === target){
       return true;
     }
-    else {)
+    else {
       return false;
     }
 }
