@@ -4,11 +4,7 @@
 
 const remove_array_element = (array, target) => {
     // Add your code here
-    var index = array.indexOf(target);
-    if (index > -1) {
-        array.splice(index, 1);
-    }
-    return array;
+    
 }
 
 
