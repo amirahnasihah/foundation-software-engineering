@@ -6,8 +6,9 @@
 // Task 1: Build the object
 const recipe = {
     // Add your code here
-
-
+    title: "Mole",
+    servings: 2,
+    ingredients
 }
 
 // DO NOT EDIT CODE BELOW
