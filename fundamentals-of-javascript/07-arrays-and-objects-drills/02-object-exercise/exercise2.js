@@ -8,7 +8,7 @@ const recipe = {
     // Add your code here
     title: "Mole",
     servings: 2,
-    ingredients
+    ingredients: ["cinnamon", "cumin", "cocoa"]
 }
 
 // DO NOT EDIT CODE BELOW
