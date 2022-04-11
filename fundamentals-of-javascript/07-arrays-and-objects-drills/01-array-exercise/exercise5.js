@@ -15,8 +15,7 @@ const contains = (array, target) => {
 
 // DO NOT EDIT CODE BELOW
 // Test Case
-arr = [2, 5, 9, 6];
-console.log(contains(arr, 5));
+lconsole.log(contains(arr, 5));
 
 // Expected Output
 // true
