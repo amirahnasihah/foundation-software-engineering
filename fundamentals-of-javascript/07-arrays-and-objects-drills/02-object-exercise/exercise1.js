@@ -4,8 +4,8 @@
 
 const getAllKeys = (inputObject) => {
     // Add your code here
-    let o = Object.keys(inputObject)
-    return o.join(", ")
+    let objKeys = Object.keys(inputObject)
+    return objKeys.join(",")
 }
 
 
