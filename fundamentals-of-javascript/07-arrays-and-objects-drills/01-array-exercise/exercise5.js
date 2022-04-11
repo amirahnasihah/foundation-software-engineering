@@ -3,7 +3,10 @@
 
 const contains = (array, target) => {
     // Add your code here
-    return array.includes(target)
+    let i = array.indexOf(target);
+    if (array[i] === target){
+      return true;
+    }
 }
 
 
