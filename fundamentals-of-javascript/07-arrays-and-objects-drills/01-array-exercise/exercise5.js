@@ -3,14 +3,7 @@
 
 const contains = (array, target) => {
     // Add your code here
-    var index = array.indexOf(target);
-    if (index > -1) {
-        array.splice(index, 1);
-    }
-    return array;
-    if (array == target)
-        return true;
-    return false
+    if ()
 }
 
 
