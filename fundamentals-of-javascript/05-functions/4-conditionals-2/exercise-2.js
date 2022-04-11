@@ -1,0 +1,38 @@
+/*
+  Conditionals
+  ---------------------------------
+  Write a function that checks if a student has passed
+  - if the grade is less than 50 then return "failed"
+  - if 50 or higher then return "passed"
+
+*/
+
+function studentPassed(grade) {
+  // Add your code here
+  if(grade < 50){
+    return "failed";
+  }
+  if(grade == 50 || grade > 50){
+    return "passed";
+  }
+  return grade;
+}
+
+/* 
+DO NOT EDIT BELOW THIS LINE
+--------------------------- */
+const grade1 = 49;
+const grade2 = 50;
+const grade3 = 100;
+
+console.log("'" + grade1 + "': " + studentPassed(grade1))
+console.log("'" + grade2 + "': " + studentPassed(grade2))
+console.log("'" + grade3 + "': " + studentPassed(grade3))
+
+/* 
+Expected Output
+---------------
+'49': failed
+'50': passed
+'100': passed
+*/
