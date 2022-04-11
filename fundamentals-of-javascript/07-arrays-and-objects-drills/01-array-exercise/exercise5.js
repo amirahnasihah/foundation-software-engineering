@@ -3,7 +3,7 @@
 
 const contains = (array, target) => {
     // Add your code here
-    if ()
+    return array.includes(target)
 }
 
 
