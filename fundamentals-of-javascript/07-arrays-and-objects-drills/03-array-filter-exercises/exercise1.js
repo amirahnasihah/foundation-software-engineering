@@ -2,7 +2,7 @@
 
 const tenAndGreaterOnly = (arr) => {
   // Add your code here
-
+  return arr  10;
 }
 
   // DO NOT EDIT CODE BELOW
