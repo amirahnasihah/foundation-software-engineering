@@ -9,7 +9,7 @@ const recipe = {
     title: "Mole",
     servings: 2,
     ingredients: ["cinnamon", "cumin", "cocoa"]
-    return this.ingredients¹
+    return ingredients.forEach(value)
 }
 
 // DO NOT EDIT CODE BELOW
