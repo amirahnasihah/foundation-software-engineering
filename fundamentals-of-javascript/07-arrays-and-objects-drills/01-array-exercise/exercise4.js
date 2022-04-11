@@ -4,7 +4,8 @@
 
 const remove_array_element = (array, target) => {
     // Add your code here
-    
+    let i = array.indexOf(target)
+    return array.splice(1, i)
 }
 
 
