@@ -9,6 +9,7 @@ const recipe = {
     title: "Mole",
     servings: 2,
     ingredients: ["cinnamon", "cumin", "cocoa"]
+    return 
 }
 
 // DO NOT EDIT CODE BELOW
