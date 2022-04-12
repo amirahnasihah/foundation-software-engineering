@@ -14,7 +14,7 @@
 
 const bookList = [
     // Add your code here
-    
+    title: ["Harry Potter", "Never Eat Alone", "In"
 ]
 
 
