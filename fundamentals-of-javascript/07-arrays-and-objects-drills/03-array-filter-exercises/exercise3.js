@@ -3,7 +3,7 @@
 
 const sixCharactersOrFewerOnly = (arr) => {
   // Add your code here
-
+  
 }
 
 // DO NOT EDIT CODE BELOW
