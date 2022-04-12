@@ -14,10 +14,10 @@
 
 const bookList = [
     // Add your code here
-    {title: "Harry Potter", author: "J.K. Rowling", alreadyRead = true},
-    {title: "Never Eat Alone", author: "Keith Ferrazzi", alreadyRead = false},
-    {title: "INSPIRED", author: "Marty Cagan", alreadyRead = false},
-    {title: "Zero to One", author: "Peter Thiel", alreadyRead = true}
+    {title: "Harry Potter", author: "J.K. Rowling", alreadyRead: true},
+    {title: "Never Eat Alone", author: "Keith Ferrazzi", alreadyRead: false},
+    {title: "INSPIRED", author: "Marty Cagan", alreadyRead: false},
+    {title: "Zero to One", author: "Peter Thiel", alreadyRead: true}
 ]
 
 
