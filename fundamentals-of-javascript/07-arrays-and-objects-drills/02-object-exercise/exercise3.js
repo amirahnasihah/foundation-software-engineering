@@ -14,8 +14,8 @@
 
 const bookList = [
     // Add your code here
-    title: ["Harry Potter", "Never Eat Alone", "INSPIRED", "Zero to One"],
-    author: ["J.K. Rowling", "Keith Ferrazzi", "Marty Cagan", "Peter Thiel"]
+    {title: "Harry Potter", author: "J.K. Rowling"},
+    {title
 ]
 
 
