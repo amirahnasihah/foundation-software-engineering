@@ -2,7 +2,7 @@
 
 const tenAndGreaterOnly = (arr) => {
   // Add your code here
-  return arr.filter(tenAndGreaterOnly)>= 10
+  return arr.filter(n => n >= 10);  // arr.filter(functionvalue))
 }
 
   // DO NOT EDIT CODE BELOW
@@ -11,3 +11,6 @@ const tenAndGreaterOnly = (arr) => {
   
   // Expected Output
   // [10, 13, 22]
+
+
+// arrays.filter(function => value, index, array)
