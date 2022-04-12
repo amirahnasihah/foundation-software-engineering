@@ -11,16 +11,14 @@ const recipe = {
     ingredients: ["cinnamon", "cumin", "cocoa"]
 }
 
-for (let i=0; i<recipe.ingredients.length; i++){
-  console.log(recipe[i])
-}
-
 // DO NOT EDIT CODE BELOW
 // Test Case
 console.log(recipe.title)
 console.log("Serves: ", recipe.servings)
 console.log("Ingredients: ")
-console.log(recipe.ingredients)
+console.log(recipe.ingredients[0])
+console.log(recipe.ingredients[1])
+console.log(recipe.ingredients[])
 
 
 
