@@ -3,7 +3,7 @@
 const tenAndGreaterOnly = (arr) => {
   // Add your code here
   let result = arr.filter(tenAndGreaterOnly)
-  return arr >= 1p
+  return result >= 10
 }
 
   // DO NOT EDIT CODE BELOW
