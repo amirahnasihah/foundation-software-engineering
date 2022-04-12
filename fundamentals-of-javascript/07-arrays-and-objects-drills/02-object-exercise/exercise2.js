@@ -11,7 +11,9 @@ const recipe = {
     ingredients: ["cinnamon", "cumin", "cocoa"]
 }
 
-for (let i=0; i<)
+for (let i=0; i<recipe.ingredients.length; i++){
+  console.log(recipe[i])
+}
 
 // DO NOT EDIT CODE BELOW
 // Test Case
