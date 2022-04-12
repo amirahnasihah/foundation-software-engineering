@@ -16,7 +16,7 @@ const recipe = {
 console.log(recipe.title)
 console.log("Serves: ", recipe.servings)
 console.log("Ingredients: ")
-console.log(recipe.ingredients)
+console.log(recipe.ingredientst)
 
 
 
