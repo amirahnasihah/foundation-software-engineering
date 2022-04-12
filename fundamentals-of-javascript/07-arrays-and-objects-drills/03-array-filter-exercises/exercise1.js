@@ -2,7 +2,8 @@
 
 const tenAndGreaterOnly = (arr) => {
   // Add your code here
-  
+  let result = arr.filter(tenAndGreaterOnly)
+  re
 }
 
   // DO NOT EDIT CODE BELOW
