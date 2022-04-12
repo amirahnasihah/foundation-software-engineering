@@ -2,7 +2,9 @@
 
 const tenAndGreaterOnly = (arr) => {
   // Add your code here
-  arr.filter(value)
+  arr.filter(function(value)){
+    return value >= 10;
+  }
 }
 
   // DO NOT EDIT CODE BELOW
