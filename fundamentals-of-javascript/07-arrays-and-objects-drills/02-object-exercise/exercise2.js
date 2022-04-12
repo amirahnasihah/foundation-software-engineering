@@ -11,12 +11,14 @@ const recipe = {
     ingredients: ["cinnamon", "cumin", "cocoa"]
 }
 
+for (let i=0; i<)
+
 // DO NOT EDIT CODE BELOW
 // Test Case
 console.log(recipe.title)
 console.log("Serves: ", recipe.servings)
 console.log("Ingredients: ")
-console.log(recipe.ingredientst)
+console.log(recipe.ingredients)
 
 
 
