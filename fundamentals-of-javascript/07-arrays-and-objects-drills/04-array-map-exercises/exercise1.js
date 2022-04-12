@@ -2,7 +2,7 @@
 
 const tripleNumbers = (arr) => {
   // Add your code here
-
+  return arr.map(x => x * 3);
 }
 
 // DO NOT EDIT CODE BELOW
