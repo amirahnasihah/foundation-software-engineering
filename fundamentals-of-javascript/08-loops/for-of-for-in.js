@@ -24,3 +24,25 @@ for (let i of list) {
 
 // for...in => for objects\array of objects
 // for...of => for array
+
+
+/////////////////////////
+
+// count objects in an array
+
+const storage = [
+  { data: '1', status: '0' },
+  { data: '2', status: '0' },
+  { data: '3', status: '0' },
+  { data: '4', status: '0' },
+  { data: '5', status: '0' },
+  { data: '6', status: '0' },
+  { data: '7', status: '1' },
+];
+
+let counter = 0;
+for (const obj of storage) {
+  if (obj.status === '0') counter++;
+}
+
+console.log(counter); // 6
