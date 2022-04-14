@@ -46,3 +46,18 @@ for (const obj of storage) {
 }
 
 console.log(counter); // 6
+
+
+
+/////////////////////////
+
+// reduce is more appropriate here than filter as it doesn't build a temporary array just for counting.
+
+var dataset = [2,2,4,2,6,4,7,8];
+var search = 2;
+
+var count = dataset.reduce(function(n, val) {
+    return n + (val === search);
+}, 0);
+
+console.log(count);
