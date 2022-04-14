@@ -21,3 +21,6 @@ for (let i in list) {
 for (let i of list) {
    console.log(i); // "4", "5", "6" => gives elements
 }
+
+// for...in => for objects\array of objects
+// for...of => for arra
