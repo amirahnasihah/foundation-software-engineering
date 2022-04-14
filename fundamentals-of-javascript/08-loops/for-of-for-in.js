@@ -61,3 +61,10 @@ var count = dataset.reduce(function(n, val) {
 }, 0);
 
 console.log(count); // 3
+
+////////////////
+
+function countInArray(array, value) {
+  return array.reduce((n, x) => n + (x === value), 0);
+}
+console.log(countInArray([1,2,3,4,4,4,3], 4)); // 3
