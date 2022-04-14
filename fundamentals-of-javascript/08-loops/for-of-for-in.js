@@ -23,4 +23,4 @@ for (let i of list) {
 }
 
 // for...in => for objects\array of objects
-// for...of => for arra
+// for...of => for array
