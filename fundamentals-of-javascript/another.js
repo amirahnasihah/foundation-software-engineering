@@ -27,7 +27,7 @@ let numberInMind = Math.floor(Math.random() * 100) + 1; // a number
 
 
 // name
-const name = document.alert('What is your name? ');
+const name = prompt('What is your name? ');
 console.log("Hey there " + name + "!");
 console.log("Okay " + name + ", let 's playing a guess game to guess a number in my mind. ");
 
@@ -35,7 +35,7 @@ console.log("Okay " + name + ", let 's playing a guess game to guess a number in
 while (foundCorrectNumber == false) {
     // Step 1: Get user input (don't forget that the input is a string)
     
-    guess = document.alert("In my mind, I have a number. It is between 0-100, guess it? "); // a string
+    guess = prompt("In my mind, I have a number. It is between 0-100, guess it? "); // a string
 
     // Step 2: Compare the guess to the secret answer and
     // let the user know the feedback (too large, too small, correct).
