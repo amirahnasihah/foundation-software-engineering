@@ -23,7 +23,7 @@ endGame()
 let numberInMind = Math.floor(Math.random() * 100) + 1; // a number
 
 // This variable is used to determine if the app should continue prompting the user for input
-// let foundCorrectNumber = false;
+let foundCorrectNumber = false;
 
 
 // name
@@ -45,8 +45,7 @@ while (foundCorrectNumber == false) {
     } else if (guess > numberInMind) {
         console.log("You guessed is too high. Guess again? ");
     }
-    else {
-    	if (guess == numberInMind) {
+    else if (guess == numberInMind) {
     		console.log("That's right. The number is " + numberInMind + " You won!! "); // string
     }
 }
