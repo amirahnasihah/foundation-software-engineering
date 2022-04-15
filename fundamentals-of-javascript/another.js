@@ -47,7 +47,7 @@ while (foundCorrectNumber == false) {
     }
     else {
     	if (guess == numberInMind) {
-    		console.log("That's right. The number is " + numberInMind + " You won!! "); // numberInMind is a string??
+    		console.log("That's right. The number is " + numberInMind + " You won!! "); // string
     }
 }
 
