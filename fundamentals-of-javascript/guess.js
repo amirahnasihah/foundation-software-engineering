@@ -1,5 +1,5 @@
 ////////
-// multiply the random number by 100 (99.99), but get a number not including 100; Math.floor() uses to round down all the numbers to nearest integer value.
+// multiply the random number by 100 (99.99), but get a number not including 100; Math.floor() usesusesuses to round down all the numbers to nearest integer value.
 
 // uses while as conditional test as while uses is to determine whether to keep looping. here, test to make sure that foundcorrectnumber is still false so user can keep on guessing. set to true when the guess is correct.
 
