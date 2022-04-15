@@ -39,14 +39,15 @@ while (foundCorrectNumber == false) {
 
     // Step 2: Compare the guess to the secret answer and
     // let the user know the feedback (too large, too small, correct).
-
-    if (guess == numberInMind) {
-        console.log("That's right. The number is " + numberInMind + " You won!! "); // numberInMind is a string??
-    } else if (guess < numberInMind) {
-        console.log("You guessed is too low. Guess again? ");
-    } else if (guess > numberInMind) {
-        console.log("You guessed is too high. Guess again? ");
+    
+    if (guess < numberInMind) {console.log("You guessed is too low. Guess again? ");
+    } 
+    
+    
+    
     }
+    else if (guess == numberInMind) {
+        console.log("That's right. The number is " + numberInMind + " You won!! "); // numberInMind is a string??
 }
 
 // Bonus Point: prompt user and provide option for user to start a new game after winning
