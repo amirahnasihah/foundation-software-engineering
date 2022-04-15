@@ -29,7 +29,7 @@ let numberInMind = Math.floor(Math.random() * 100) + 1; // a number
 // name
 const name = document.alert('What is your name? ';)
 console.log("Hey there " + name + "!");
-console.log("Okay " + name + ", let 's playing a gye to guess a number in my mind. ");
+console.log("Okay " + name + ", let 's playing a guess game to guess a number in my mind. ");
 
 
 while (foundCorrectNumber == false) {
