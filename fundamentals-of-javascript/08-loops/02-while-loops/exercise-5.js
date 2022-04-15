@@ -7,8 +7,12 @@ const input = 10
 
 let result = input;
 let i = input + 1;
-while (i > 0 && i < result)
+while (i > 0 && i < input){
+	result *= i;
+	i--;
+}
 
+console.log(result)
 
 
 
