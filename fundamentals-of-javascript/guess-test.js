@@ -17,7 +17,7 @@ endGame()
 */ ////////
 
 
-const prompt = require('prompt-sync')({ sigint: true });
+// const prompt = require('prompt-sync')({ sigint: true });
 
 // Random number from 1 - 100
 let numberInMind = Math.floor(Math.random() * 100) + 1; // a number
@@ -28,7 +28,7 @@ let foundCorrectNumber = false;
 
 while (!foundCorrectNumber) {
     // Step 1: Get user input (don't forget that the input is a string)
-    const name = prompt('What is your name? ');
+    const name ='What is your name? ';
     console.log("Hey there " + name + "!");
     console.log("Okay " + name + ", let 's try to guess a number in my mind. ");
 
