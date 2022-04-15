@@ -35,7 +35,6 @@ console.log("Okay " + name + ", let 's playing a guess game to guess a number in
 while (foundCorrectNumber == false) {
     // Step 1: Get user input (don't forget that the input is a string)
     
-
     guess = prompt("In my mind, I have a number. It is between 0-100, guess it? "); // a string
 
     // Step 2: Compare the guess to the secret answer and
