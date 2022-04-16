@@ -44,14 +44,18 @@ functionIntro = (userGuess, functionGuessGame) => {
     // let the user know the feedback (too large, too small, correct).
 
 functionGuessGame = (userGuess, randomNum) => {
-	if (userGuess == randomNum) {
-        console.log("That's right. The number is " + randomNum + " You won!! ");
-    } else if (userGuess < randomNum) {
-        console.log("You guessed is too low. Guess again? ");
-    } else if (userGuess > randomNum) {
-        console.log("You guessed is too high. Guess again? ");
-    }
 	
+	
+	if (userGuess == randomNum) {
+		result = console.log("That's right. The number is " + randomNum + " You won!! ");
+		
+	} else if (userGuess < randomNum) {
+		result = console.log("You guessed is too low. Guess again? ");
+		
+	} else if (userGuess > randomNum) {
+        result = console.log("You guessed is too high. Guess again? ");
+	}
+	return result
 }
 }
 
