@@ -24,6 +24,7 @@ guessStart = () => {
 		if (guess === randomNumber) {
 			foundCorrectNumber = true;
 			alert("Won. The number is " + randomNumber);
+			break;
 			
 		} else if (guess < randomNumber) {
 			alert("too low")
