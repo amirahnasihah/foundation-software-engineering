@@ -36,3 +36,12 @@ while(!foundCorrectNumber) {
 
 alert("one more round? ")
 
+
+// make a function
+resetGame = () => {
+	
+	
+	
+}
+
+resetGame();  // calling f
