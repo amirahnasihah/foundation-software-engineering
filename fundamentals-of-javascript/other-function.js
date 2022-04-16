@@ -43,7 +43,8 @@ guessStart();
 // make a function
 resetGame = () => {
 	alert("one more round? ")
-	return guessStart()
+	
+	guess = 1;
 	
 }
 resetGame();  // calling function
