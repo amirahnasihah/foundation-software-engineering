@@ -60,7 +60,7 @@ functionGuessGame = (userGuess, randomNum) => {
 
 
 let guess1 = prompt("In my mind, I have a number. It is between 0-100, guess it? ");
-functionIntro(guess1, )
+functionIntro(guess1, functionGuessGame)
 
 
 let guess2 = prompt("Try again. Enter 1 - 100: ");
