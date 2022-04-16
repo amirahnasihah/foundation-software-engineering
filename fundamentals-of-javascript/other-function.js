@@ -38,10 +38,6 @@ guessStart = () => {
 guessStart();
 
 
-alert("no more")
-
-
-
 
 
 // make a function
@@ -50,5 +46,9 @@ resetGame = () => {
 	guessStart()
 	
 }
-
 resetGame();  // calling function
+
+
+
+alert("no more")
+
