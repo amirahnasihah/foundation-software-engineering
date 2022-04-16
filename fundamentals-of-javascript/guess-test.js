@@ -34,18 +34,16 @@ let foundCorrectNumber = false;
 while (!foundCorrectNumber) {
     // Step 1: Get user input (don't forget that the input is a string)
     
-functionIntro = (userGuess  randomNum) => {
+functionIntro = (userGuess, functionGuessGame) => {
 	let name = prompt('What is your name? ');
 	console.log("Hey there " + name + "!\nLet 's try to guess a number in my mind. ");
-    randomNum(userGuess)
+    functionGuessGame(userGuess)
 }
 
     // Step 2: Compare the guess to the secret answer and
     // let the user know the feedback (too large, too small, correct).
 
 functionGuessGame = (userGuess, randomNum) => {
-	
-	
 	if (userGuess == randomNum) {
         console.log("That's right. The number is " + randomNum + " You won!! ");
     } else if (userGuess < randomNum) {
@@ -53,6 +51,7 @@ functionGuessGame = (userGuess, randomNum) => {
     } else if (userGuess > randomNum) {
         console.log("You guessed is too high. Guess again? ");
     }
+	
 }
 }
 
