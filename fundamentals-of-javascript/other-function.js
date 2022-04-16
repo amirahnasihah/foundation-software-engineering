@@ -51,5 +51,5 @@ resetGame();  // calling function
 
 
 
-alert("no more")
-
+let yesOrNo = confirm("continue or give up? ")
+alert(y)
