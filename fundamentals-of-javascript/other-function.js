@@ -35,8 +35,13 @@ guessStart = () => {
 	}
 	}
 }
+guessStart();
+
 
 alert("one more round? ")
+
+
+
 
 
 // make a function
