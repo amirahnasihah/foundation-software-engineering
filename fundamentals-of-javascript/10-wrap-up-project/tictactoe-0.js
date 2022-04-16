@@ -104,7 +104,7 @@ function playTurn(player) {
     prompt.start();
     prompt.length(["position"], funcTurn = (err, result) => {
 
-        if (validateMove(result.position) === true) {
+        if (validateMove(result.position) === true)
             markBoard(result.position, player);
             printBoard();
             if (checkWin(player) === true) {
