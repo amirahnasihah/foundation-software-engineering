@@ -27,7 +27,7 @@ let foundCorrectNumber = false;
 
 
 // askName + instructions
-let name = prompt('What's your name? ';)
+let name = prompt("What's your name? ");
 console.log("Hey there " + name + "!\nLet 's try to guess a number in my mind. ");
 
 
