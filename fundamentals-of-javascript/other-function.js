@@ -52,4 +52,10 @@ resetGame();  // calling function
 
 
 let yesOrNo = confirm("continue or give up? ")
-alert(y)
+
+if (yesOrNo) {
+	true
+	alert("continue")
+} else {
+	alert("give up")
+}
