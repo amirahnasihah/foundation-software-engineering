@@ -42,11 +42,7 @@ guessStart();
 
 // make a function
 resetGame = () => {
-	guess = 1;
-	let yesOrNo = confirm("continue or give up? ")
-	if (yesOrNo) {
-		
-	}
+	
 }
 resetGame();  // calling function
 
