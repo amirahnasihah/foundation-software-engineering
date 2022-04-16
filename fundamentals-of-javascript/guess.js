@@ -34,18 +34,16 @@ console.log("Hey there " + name + "!\nLet 's try to guess a number in my mind. "
 while (!foundCorrectNumber) {
     // Step 1: Get user input (don't forget that the input is a string)
     
-functionGuessGame = ()
-    guess = prompt("In my mind, I have a number. It is between 0-100, guess it? ");
+    guessNum = prompt("Now, I have a number. It is between 0-100, guess it? ");
 
     // Step 2: Compare the guess to the secret answer and
     // let the user know the feedback (too large, too small, correct).
 
-func
-    if (guess == numberInMind) {
+    if (guessNum == numberInMind) {
         console.log("That's right. The number is " + numberInMind + " You won!! "); // numberInMind is a string??
-    } else if (guess < numberInMind) {
+    } else if (guessNum < numberInMind) {
         console.log("You guessed is too low. Guess again? ");
-    } else if (guess > numberInMind) {
+    } else if (guessNum > numberInMind) {
         console.log("You guessed is too high. Guess again? ");
     }
 }
