@@ -42,8 +42,7 @@ functionGuessGame = ()
     // let the user know the feedback (too large, too small, correct).
 
 functionGuessGame = (userGuess, randomNum) => {
-	try
-	
+	tryAgain = console.log("Try again. Enter 1 - 100: ")
 	if (userGuess == randomNum) {
         console.log("That's right. The number is " + randomNum + " You won!! ");
     } else if (userGuess < randomNum) {
