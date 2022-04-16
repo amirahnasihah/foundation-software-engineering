@@ -9,7 +9,7 @@ Players 'X' and 'O' take turn inputing their position on the command line using 
 
 // importing user import library
 // missed ({sigint: true});
-const prompt = require('prompt-sync')({ sigint: true });
+//const prompt = require('prompt-sync')({ sigint: true });
 
 let board = {
     1: ' ',
