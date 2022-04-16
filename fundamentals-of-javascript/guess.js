@@ -49,7 +49,3 @@ while (!foundCorrectNumber) {
 }
 
 // Bonus Point: prompt user and provide option for user to start a new game after winning
-
-restartGame = () => {
-
-}
