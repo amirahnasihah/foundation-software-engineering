@@ -42,18 +42,17 @@ guessStart();
 
 // make a function
 resetGame = () => {
-	alert("one more round? ")
-	
 	guess = 1;
+	let yesOrNo = confirm("continue or give up? ")
+	if (yesOrNo) {
+		true
+		alert("continue")
+		
+	} else {
+	alert("give up")
+}
 	
 }
 resetGame();  // calling function
 
 
-let yesOrNo = confirm("continue or give up? ")
-if (yesOrNo) {
-	true
-	alert("continue")
-} else {
-	alert("give up")
-}
