@@ -35,7 +35,7 @@ while (!foundCorrectNumber) {
     // Step 1: Get user input (don't forget that the input is a string)
     
 functionIntro = (userGuess  randomNum) => {
-	prompt('What is your name? ';)
+	let name = prompt('What is your name? ';)
 	console.log("Hey there " + name + "!\nLet 's try to guess a number in my mind. ");
 	
     guess = prompt("In my mind, I have a number. It is between 0-100, guess it? ");
