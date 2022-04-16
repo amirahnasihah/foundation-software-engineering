@@ -14,6 +14,7 @@ while(!foundCorrectNumber) {
 	guess = prompt("enter a number from 1 - 100: ");
 	
 	if (guess == randomNumber) {
+		foundCorrectNumber = true;
 		alert("Won");
 	} else if (guess < randomNumber) {
 		alert("too low")
