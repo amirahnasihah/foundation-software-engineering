@@ -16,18 +16,17 @@ while(!foundCorrectNumber) {
 	guess = prompt("enter a number from 1 - 100: ");
 	
 	if (guess < 0 || guess >= 100) {
-		alert("enter a number ")
-	}
-	
-	if (guess == randomNumber) {
+		alert("enter a number only! ")
+	} else { 
+		if (guess == randomNumber) {
 		foundCorrectNumber = true;
 		alert("Won. The number is " + randomNumber);
-	} else if (guess < randomNumber) {
-		alert("too low")
-	} else if (guess > randomNumber) {
+		} else if (guess < randomNumber) {
+		alert("too low")} else if (guess > randomNumber) {
 		alert("too high")
 	} else {
 		alert("try again")
+	}
 	}
 }
 
