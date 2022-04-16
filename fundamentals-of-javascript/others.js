@@ -16,7 +16,7 @@ while(!foundCorrectNumber) {
 	guess = prompt("enter a number from 1 - 100: ");
 	
 	if (guess < 0 || guess >= 100) { // 1-100
-		alert("enter a number only! ")
+		alert("between 1-100 only! ")
 	} else { 
 		if (guess == randomNumber) {
 		foundCorrectNumber = true;
@@ -29,7 +29,7 @@ while(!foundCorrectNumber) {
 		alert("too high")
 			
 		} else { // other than number
-		alert("number only! ")
+		alert("no letter, number only! ")
 		}
 	}
 }
