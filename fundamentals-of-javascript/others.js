@@ -15,7 +15,7 @@ let guess;
 while(!foundCorrectNumber) {
 	guess = prompt("enter a number from 1 - 100: ");
 	
-	if (guess < 0 || guess >= 100) { // 1-100
+	if (guess < 0 || guess > 100) { // 1-100
 		alert("between 1-100 only! ")
 	} else { 
 		if (guess == randomNumber) {
