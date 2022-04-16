@@ -6,6 +6,7 @@
 // uses `==` because different data types
 
 
+
 /*
 intro()
 while(playing){
@@ -16,7 +17,7 @@ endGame()
 */ ////////
 
 
-const prompt = require('prompt-sync')({ sigint: true });
+// const prompt = require('prompt-sync')({ sigint: true });
 
 // Random number from 1 - 100
 let numberInMind = Math.floor(Math.random() * 100) + 1; // a number
@@ -24,19 +25,22 @@ let numberInMind = Math.floor(Math.random() * 100) + 1; // a number
 // This variable is used to determine if the app should continue prompting the user for input
 let foundCorrectNumber = false;
 
-const name = prompt('What is your name? ');
+
+// name
+const name = document.alert('What is your name? ';)
 console.log("Hey there " + name + "!\nLet 's try to guess a number in my mind. ");
 
 
 while (!foundCorrectNumber) {
     // Step 1: Get user input (don't forget that the input is a string)
-
-    guess = prompt("Now, I have a number. It is between 0-100, guess it? ");
+    
+functionGuessGame = ()
+    guess = prompt("In my mind, I have a number. It is between 0-100, guess it? ");
 
     // Step 2: Compare the guess to the secret answer and
     // let the user know the feedback (too large, too small, correct).
 
-
+func
     if (guess == numberInMind) {
         console.log("That's right. The number is " + numberInMind + " You won!! "); // numberInMind is a string??
     } else if (guess < numberInMind) {
