@@ -13,5 +13,7 @@ let foundCorrectNumber = false;
 while(!foundCorrectNumber) {
 	guess = prompt("enter a number from 1 - 100: ");
 	
-	if guess
+	if (guess == randomNumber) {
+		
+	}
 }
