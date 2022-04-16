@@ -44,4 +44,4 @@ resetGame = () => {
 	
 }
 
-resetGame();  // calling f
+resetGame();  // calling function
