@@ -28,14 +28,13 @@ let foundCorrectNumber = false;
 
 // name
 const name = document.alert('What is your name? ';)
-console.log("Hey there " + name + "!");
-console.log("Okay " + name + ", let 's try to guess a number in my mind. ");
+console.log("Hey there " + name + "!\nLet 's try to guess a number in my mind. ");
 
 
 while (!foundCorrectNumber) {
     // Step 1: Get user input (don't forget that the input is a string)
     
-functionGuessGame = ()
+functionIntro = (userGuess  randomNum) r
     guess = prompt("In my mind, I have a number. It is between 0-100, guess it? "); // a string
 
     // Step 2: Compare the guess to the secret answer and
