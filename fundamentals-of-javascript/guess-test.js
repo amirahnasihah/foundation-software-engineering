@@ -41,12 +41,12 @@ functionGuessGame = ()
     // Step 2: Compare the guess to the secret answer and
     // let the user know the feedback (too large, too small, correct).
 
-functionGuessGame = userG
-    if (guess == numberInMind) {
+functionGuessGame = (userGuess, randomNum)
+    if (userGuess == randomNum) {
         console.log("That's right. The number is " + numberInMind + " You won!! "); // numberInMind is a string??
-    } else if (guess < numberInMind) {
+    } else if (userGuess < randomNum) {
         console.log("You guessed is too low. Guess again? ");
-    } else if (guess > numberInMind) {
+    } else if (guess > randomNum) {
         console.log("You guessed is too high. Guess again? ");
     }
 }
