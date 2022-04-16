@@ -45,10 +45,7 @@ resetGame = () => {
 	guess = 1;
 	let yesOrNo = confirm("continue or give up? ")
 	if (yesOrNo) {
-		true;
-		alert("continue")
-	} else {
-		alert("give up")
+		
 	}
 }
 resetGame();  // calling function
