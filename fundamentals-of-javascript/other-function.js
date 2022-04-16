@@ -24,9 +24,9 @@ guessStart = () => {
 				foundCorrectNumber = true;
 				alert("Won. The number is " + randomNumber); 
 			} else if (guess < randomNumber) {
-				alert("too low")
+				prompt("too low")
 			} else if (guess > randomNumber) {
-				alert("too high") 
+				prompt("too high") 
 			} else { // other than number
 				alert("no letter, number only! ")
 			}
