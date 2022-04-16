@@ -36,6 +36,7 @@ while (!foundCorrectNumber) {
     
 functionIntro = (userGuess  randomNum) => {
     guess = prompt("In my mind, I have a number. It is between 0-100, guess it? ");
+    randomNum(userGuess)
 }
 
     // Step 2: Compare the guess to the secret answer and
@@ -55,7 +56,7 @@ functionGuessGame = (userGuess, randomNum) => {
 
 
 
-
+functionIntro()
 
 
 
