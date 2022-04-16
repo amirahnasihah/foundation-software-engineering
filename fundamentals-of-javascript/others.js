@@ -15,7 +15,7 @@ while(!foundCorrectNumber) {
 	
 	if (guess == randomNumber) {
 		foundCorrectNumber = true;
-		alert("Won");
+		alert("Won. The number is " + randomNumber);
 	} else if (guess < randomNumber) {
 		alert("too low")
 	} else if (guess > randomNumber) {
