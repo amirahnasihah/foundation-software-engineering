@@ -38,7 +38,7 @@ functionIntro = (userGuess  randomNum) => {
 	let name = prompt('What is your name? ';)
 	console.log("Hey there " + name + "!\nLet 's try to guess a number in my mind. ");
 	
-    guess = prompt("In my mind, I have a number. It is between 0-100, guess it? ");
+    
     randomNum(userGuess)
 }
 
@@ -46,7 +46,8 @@ functionIntro = (userGuess  randomNum) => {
     // let the user know the feedback (too large, too small, correct).
 
 functionGuessGame = (userGuess, randomNum) => {
-	tryAgain = console.log("Try again. Enter 1 - 100: ")
+	
+	
 	if (userGuess == randomNum) {
         console.log("That's right. The number is " + randomNum + " You won!! ");
     } else if (userGuess < randomNum) {
@@ -58,10 +59,11 @@ functionGuessGame = (userGuess, randomNum) => {
 }
 
 
-
+let guess1 = prompt("In my mind, I have a number. It is between 0-100, guess it? ");
 functionIntro()
 
 
+let guess2 = prompt("Try again. Enter 1 - 100: ");
 
 
 
