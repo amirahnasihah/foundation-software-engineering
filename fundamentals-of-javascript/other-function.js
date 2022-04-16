@@ -27,11 +27,13 @@ guessStart = () => {
 			alert("too low")
 			
 		} else if (guess > randomNumber) {
-			alert("too high") else { // other than number
-		alert("no letter, number only! ")
+			alert("too high") 
+			
+		} else { // other than number
+			alert("no letter, number only! ")
 		}
 	}
-}
+	}
 }
 
 alert("one more round? ")
