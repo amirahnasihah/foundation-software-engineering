@@ -34,8 +34,9 @@ console.log("Hey there " + name + "!\nLet 's try to guess a number in my mind. "
 while (!foundCorrectNumber) {
     // Step 1: Get user input (don't forget that the input is a string)
     
-functionIntro = (userGuess  randomNum) r
-    guess = prompt("In my mind, I have a number. It is between 0-100, guess it? "); // a string
+functionIntro = (userGuess  randomNum) => {
+    guess = prompt("In my mind, I have a number. It is between 0-100, guess it? ");
+}
 
     // Step 2: Compare the guess to the secret answer and
     // let the user know the feedback (too large, too small, correct).
@@ -50,9 +51,14 @@ functionGuessGame = (userGuess, randomNum) => {
         console.log("You guessed is too high. Guess again? ");
     }
 }
+}
+
+
+
+
+
+
+
+
 
 // Bonus Point: prompt user and provide option for user to start a new game after winning
-
-restartGame = () => {
-
-}
