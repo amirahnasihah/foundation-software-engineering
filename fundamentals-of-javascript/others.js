@@ -29,7 +29,7 @@ while(!foundCorrectNumber) {
 		alert("too high")
 			
 		} else {
-		alert("try again")
+		alert("number only! ")
 		}
 	}
 }
