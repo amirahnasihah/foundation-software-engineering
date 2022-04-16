@@ -37,8 +37,6 @@ while (!foundCorrectNumber) {
 functionIntro = (userGuess  randomNum) => {
 	let name = prompt('What is your name? ';)
 	console.log("Hey there " + name + "!\nLet 's try to guess a number in my mind. ");
-	
-    
     randomNum(userGuess)
 }
 
