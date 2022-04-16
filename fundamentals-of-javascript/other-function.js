@@ -38,7 +38,7 @@ guessStart = () => {
 guessStart();
 
 
-alert("one more round? ")
+alert("no more")
 
 
 
@@ -46,8 +46,8 @@ alert("one more round? ")
 
 // make a function
 resetGame = () => {
-	
-	
+	alert("one more round? ")
+	guessStart()
 	
 }
 
