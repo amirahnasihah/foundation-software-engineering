@@ -11,13 +11,12 @@ let foundCorrectNumber = false;
 
 let guess;
 
-
-while(!foundCorrectNumber) {
+guessStart = () => {
+	while(!foundCorrectNumber) {
 	guess = prompt("enter a number from 1 - 100: ");
 	
 	if (guess < 0 || guess > 100) { // 1-100
-		alert("between 1-100 only! ")
-	} else { 
+		alert("between 1-100 only! ") } else { 
 		if (guess == randomNumber) {
 		foundCorrectNumber = true;
 		alert("Won. The number is " + randomNumber);
@@ -32,6 +31,7 @@ while(!foundCorrectNumber) {
 		alert("no letter, number only! ")
 		}
 	}
+}
 }
 
 alert("one more round? ")
