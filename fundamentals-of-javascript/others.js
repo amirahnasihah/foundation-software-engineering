@@ -9,9 +9,15 @@ let foundCorrectNumber = false;
 
 
 
+let guess;
+
 
 while(!foundCorrectNumber) {
 	guess = prompt("enter a number from 1 - 100: ");
+	
+	if (guess < 0 || guess >= 100) {
+		alert("enter a number ")
+	}
 	
 	if (guess == randomNumber) {
 		foundCorrectNumber = true;
