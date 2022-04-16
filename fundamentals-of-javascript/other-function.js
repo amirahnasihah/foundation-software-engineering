@@ -19,7 +19,6 @@ guessStart = () => {
 	
 	if (guess < 0 || guess > 100) { // 1-100
 		alert("between 1-100 only! ")
-		
 	} else { 
 		if (guess === randomNumber) {
 			foundCorrectNumber = true;
