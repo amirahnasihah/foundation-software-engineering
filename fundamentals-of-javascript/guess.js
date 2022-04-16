@@ -26,8 +26,8 @@ let numberInMind = Math.floor(Math.random() * 100) + 1; // a number
 let foundCorrectNumber = false;
 
 
-// name
-const name = document.alert('What is your name? ';)
+// askName + instructions
+let name = prompt('What is your name? ';)
 console.log("Hey there " + name + "!\nLet 's try to guess a number in my mind. ");
 
 
