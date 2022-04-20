@@ -1,15 +1,19 @@
 # 04-basic-SELECT-queries
 
+## Basic SELECT Queries
+
 1.	Write a SQL query to list the titles of any 5 movies.
 
 Expected Output: a table with a single column for the title of 5 movies.
 
+```
 title
 Dama de noche
 Pesn o geroyakh
 El huésped del sevillano
 Kate & Leopold
 Another Time, Another Place
+```
 
 ```sql
 SELECT title FROM movies;
@@ -19,6 +23,7 @@ SELECT title FROM movies;
 
 Expected Output: a table with a single column containing a sorted movie title list. You can only capture the first 10 rows for illustration.
 
+```
 title
 !Women Art Revolution
 #1 Serial Killer
@@ -30,6 +35,7 @@ title
 #66
 #73, Shaanthi Nivaasa
 #82 Summits
+```
 
 ```sql
 SELECT title FROM movies ORDER BY title ASC;
@@ -39,6 +45,7 @@ SELECT title FROM movies ORDER BY title ASC;
 
 Expected Output: a table with a single column containing a sorted movie title list. You can only capture the first 10 rows for illustration.
 
+```
 title
 Šiška Deluxe
 împetu
@@ -50,6 +57,7 @@ title
 à propos: philosophie
 Þorsti
 Üçüzler
+```
 
 ```sql
 SELECT title FROM movies ORDER by title DESC;
@@ -59,6 +67,7 @@ SELECT title FROM movies ORDER by title DESC;
 
 Expected Output: a table with a single column containing a sorted unique name list. You can only capture the first 10 rows for illustration.
 
+```
 name
 !'aru Ikhuisi Piet Berendse
 !Nqate Xqamxebe
@@ -70,11 +79,10 @@ $hutter
 'Bad' Chad Broussard
 'Beatle' Bob Matonis
 'Big' James Wroblewski
+```
 
 Result: 979440 rows
 
 ```sql
 SELECT DISTINCT name FROM people ORDER by name ASC;
 ```
-
-- End of Assignment -
