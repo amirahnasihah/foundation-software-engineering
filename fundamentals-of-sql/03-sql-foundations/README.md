@@ -36,8 +36,10 @@ D = Delete messages
 
 1.	Imagine you are building a Whatsapp like app. Name two data fields and the corresponding SQL data types which would be used for storing records of chat messages.
 
+```
 contacts = INTEGER
 messages = TEXT
+```
 
 2.	Name a data type that’s not available in SQLite.
 
