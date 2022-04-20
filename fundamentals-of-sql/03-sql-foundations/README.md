@@ -1,61 +1,52 @@
 # 03-sql-foundations
 
-## Lab Assignment 5 - SELECT Queries with Conditions
+## SQL Foundations
 
-Query Exercises
+### CRUD
 
-For the exercises below, please write the required query and test in DB Browser for SQLite. When you succeed, please copy and paste the query you used in the answer box. You can reference the “Expected Output” for what is expected to come out from your query execution. 
+1.	Which 4 operations does C, R, U, D stand for?
 
-1.	Write a SQL query to list the titles of all movies released in 1990.
-Expected Output: a table with a single column for the title of each movie.
-
-title
-Wenn du groß bist, lieber Adam
-Larks on a String
-Vojtech, receny sirotek
-Rosa Heimat - eine Landillusion
-Vincent and Me
-Halfaouine: Boy of the Terraces
-Call Me Mr. Brown
-Commando terrorista
-The Scarlet Scorpion
-Astonished
-
-```sql
-SELECT title FROM movies WHERE year=1990;
+```
+C = Create
+R = Read
+U = Update
+D = Delete
 ```
 
-2.	Write a SQL query to determine the birth year of Benedict Cumberbatch. 
-You may assume that there is only one person in the database with the name Benedict Cumberbatch.
+2.	Which 5 SQL keywords that are related to CRUD operations.
 
-Expected Output: a table with a single column and a single row (plus optional header) containing Benedict Cumberbatch’s birth year.
-
-birth
-1976
-
-```sql
-SELECT birth FROM people WHERE name="Benedict Cumberbatch";
+```
+SELECT
+CREATE
+DELETE
+UPDATE
+INSERT INTO
 ```
 
-3.	Write a SQL query to list the titles of all movies with a release date on or after 2000, in alphabetical order.
+3.	Consider a messaging app (e.g. Whatsapp). Which app functions can lead to CRUD operations? Suggest at least one app function for each CRUD operation.
 
-Expected Output: a table with a single column for the title of each movie.
+```
+C = Create new group
+R = Read the chat messages
+U = Update status
+D = Delete messages
+```
 
+### SQL Data Types
 
+1.	Imagine you are building a Whatsapp like app. Name two data fields and the corresponding SQL data types which would be used for storing records of chat messages.
 
+contacts = INTEGER
+messages = TEXT
 
-4.	Write a SQL query to determine the number of movies with an IMDb rating > 9.8.
+2.	Name a data type that’s not available in SQLite.
 
-Expected Output: a table with a single column and a single row (plus optional header) containing the number of movies higher than 9.8 rating.
+```
+BOOLEAN
+```
 
+3.	For the data type that’s not available in SQLite, what would we use as a replacement? And how?
 
-
-5.	Write a SQL query to list the titles and release years of all Captain America movies, in chronological order. 
-You may assume that the title of all Captain America movies will begin with the words “Captain America”, and that if a movie title begins with the words “Captain America”, it is a Captain America movie.
-
-Expected Output: a table with two columns, one for the title of each movie and one for the release year of each movie.
-
-
-
-
-- End of Assignment -    
+```
+Use 0 and 1 which represent an INTEGER. It recognizes the word ‘TRUE’ and ‘FALSE’ but makes an alias for the integer values of 0 and 1. That is 0 mean false, 1 mean true.
+```
