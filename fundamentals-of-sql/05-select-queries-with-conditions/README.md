@@ -3,6 +3,7 @@
 ## SELECT Queries with Conditions
 
 1.	Write a SQL query to list the titles of all movies released in 1990.
+
 Expected Output: a table with a single column for the title of each movie.
 
 ```txt
@@ -100,3 +101,25 @@ FROM movies
 WHERE title LIKE "Captain America%"
 ORDER BY year ASC
 ```
+
+## Simplifying BETWEEN and IN
+
+```sql
+SELECT *
+FROM movies
+WHERE
+year=1995 OR year=1996 OR year=1997
+OR title='The Lord of the Ring' OR title='Star Wars';
+```
+
+Simplifying version, the BEETWEEN keyword included year 1995 and 1997.
+If using (< AND >), the year 1995 and 1997 will not be included when doing query.
+
+```sql
+SELECT *
+FROM movies
+WHERE
+year BETWEEN 1995 AND 1997
+OR title IN('The Lord of the Ring', 'Star Wars');
+```
+
