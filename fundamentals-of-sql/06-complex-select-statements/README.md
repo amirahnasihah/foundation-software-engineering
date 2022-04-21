@@ -1,5 +1,18 @@
 # 06-complex-select-statements
 
+## Things-to-know
+
+### Subqueries
+
+This is also called as nested statement. The `movie_id` column is related or connected with the `id` column/field from movies table.
+
+```sql
+SELECT rating FROM ratings
+WHERE movie_id = (
+	SELECT id FROM movies WHERE title='Toy Story'
+};
+```
+
 ## Complex SELECT statements
 
 ### Understanding the database
