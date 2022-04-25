@@ -17,7 +17,7 @@ Query Exercises
 
 Expected Output: a new table with two columns - movie_id and person_id
 
-```
+```sql
 CREATE TABLE actors (
 	movie_id INTEGER,
 	person_id INTEGER
@@ -29,7 +29,7 @@ CREATE TABLE actors (
 Expected Output: A new record in the “actors” table
 Hint: You may want to look up the movie_id of “Titanic” and person_id of “Leonardo DiCaprio” first.
 
-```
+```sql
 Insert into actors
 (movie_id, person_id)
 Values
@@ -62,16 +62,24 @@ movie_id
 Expected Output: The record in the “actors” table being updated to the movie_id of “Celebrity”
 Hint: You may want to look up the movie_id of “Celebrity” first
 
-
- 
+```sql
+UPDATE actors
+SET movie_id = 120533
+``` 
 
 4.	Write a SQL query to change the table name of “actors” into “movie_actors”
 
 Expected Output: The name of the “actors” table is being to updated to “movie_actors”
 
-
+```sql
+ALTER TABLE actors
+RENAME TO movie_actors
+```
 
 5.	Write a SQL query to delete the “actors” table on the movie database. (Be careful not to delete the wrong table, or you will need to download the movie database once again.)
 
 Output: A series of SQL query composed with DROP operation
 
+```sql
+DROP TABLE movie_actors
+```
