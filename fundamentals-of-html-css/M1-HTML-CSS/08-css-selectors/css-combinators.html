@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Nor Amirah Nasihah</title>
+	
+	<style>
+	/* change <p> elements, that are descendants (space) of <div> elements */
+	div p {
+		color: red;
+	}
+	
+	/* immediate children (+) of */
+	div + p {
+		color: green;
+	}
+	</style>
+</head>
+
+<body>
+	<div>
+		<p>
+			This is a paragraph inside a div element.
+		</p>
+		<p>
+			This is another paragraph inside a div element.
+		</p>
+		<span><p>
+			This a paragraph inside a span element,inside a div element.
+		</p>
+		</span>
+	</div>
+	<p>
+		This is a paragraph, not inside a div element.
+	</p>
+	<p>
+		This is another paragraph, not inside a div element.
+	</p>
+
+</body>
+
+</html>

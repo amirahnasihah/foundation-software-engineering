@@ -1,0 +1,14 @@
+/* Styling starts here */
+
+h1 {
+	color: 1px solid green;
+	margin-top: 50px;
+	margin-bottom: 80px;
+	width: 40%;
+	min-width: 300px;
+}
+
+p {
+	background-color: lightblue;
+	padding: 25px 50px;
+}

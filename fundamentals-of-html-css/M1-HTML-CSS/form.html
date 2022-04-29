@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Nor Amirah Nasihah</title>
+</head>
+
+<body>
+    <!-- Part 1: Form Input Types -->
+    <h1>Application Form</h1>
+    <!-- First Name => maxlength/placeholder text -->
+    <form>
+        <label for="first-name">First Name</label><br/>
+        <input type="text" id="first-name" maxlength="20" placeholder="20 letters only"><br/>
+        <!-- Last Name -->
+        <label for="last-name">Last Name</label><br/>
+        <input type="text" id="last-name" maxlength="20" placeholder="20 letters only">
+    </form>
+
+    <!-- Region: radio button -->
+    <!-- Radio buttons allow users select ONLY ONE option from the list of choices -->
+    <p>Region</p>
+    <form>
+        <input type="radio" id="asia" name="area">
+        <label for="asia">Asia</label>
+
+        <input type="radio" id="europe" name="area">
+        <label for="europe">Europe</label>
+
+        <input type="radio" id="north-america" name="area">
+        <label for="north-america">North America</label>
+
+        <input type="radio" id="south-america" name="area">
+        <label for="south-america">South America</label>
+
+        <input type="radio" id="africa" name="area">
+        <label for="africa">Africa</label>
+    </form>
+
+    <!-- Coding Class: checkbox-->
+    <!-- Checkboxes allow users select MULTIPLE options from the list of choices -->
+    <p>Coding Class</p>
+    <form>
+        <input type="checkbox" id=javascript name="coding">
+        <label for="javascript">JavaScript</label>
+
+        <input type="checkbox" id=python name="coding">
+        <label for="python">Python</label>
+
+        <input type="checkbox" id=html-css name="coding">
+        <label for="html-css">HTML/CSS</label>
+    </form>
+
+    <!-- Dropdown menu => select + option -->
+    <!--The <label> tag is asking the user a question.
+The <option> tag defines the options that can be selected. The first one is auto-selected by default
+    -->
+
+    <form>
+        <label for="coding-experiences">Your coding experiences</label>
+        <select id="coding-experiences">
+          <option value="no-experiences">No Experiences</option>
+          <option value="some-experiences">Some Experiences</option>
+          <option value="extensive-experiences">Extensive Experiences</option>
+      </select>
+    </form><br>
+
+    <!-- Textarea + label-->
+    <form>
+        <label for="name">Any other comments for your application</label><br/><br/>
+        <textarea rows="10" cols="30"></textarea>
+    </form>
+</body>
+
+</html>
