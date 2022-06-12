@@ -161,11 +161,11 @@ This can be confusing, but `align-content` determines the spacing between lines,
 
 CSS properties you've learned:
 
-* justify-content
-* align-items
-* flex-direction
-* order
-* align-self
-* flex-wrap
-flex-flow
-align-content
+* `justify-content`
+* `align-items`
+* `flex-direction`
+* `order`
+* `align-self`
+* `flex-wrap`
+* `flex-flow`
+* `align-content`
