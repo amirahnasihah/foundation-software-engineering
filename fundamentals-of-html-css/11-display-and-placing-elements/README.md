@@ -100,5 +100,12 @@ Aligns a flex item along the cross axis, overriding the `align-items` value.
 	align-items: flex-start;
 }
 
-.yellow {}
+.yellow {
+	align-self: flex-end;
+}
 ```
+
+## order + align-self
+
+Combine `order` with `align-self` to help the frogs to their destinations.
+
