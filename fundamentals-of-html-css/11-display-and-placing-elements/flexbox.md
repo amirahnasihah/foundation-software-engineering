@@ -24,10 +24,10 @@ This CSS property aligns items **vertically** and accepts the following values:
 
 This CSS property defines the direction items are placed in the container, and accepts the following values:
 
-* row: Items are placed the same as the text direction.
-* row-reverse: Items are placed opposite to the text direction.
-* column: Items are placed top to bottom.
-* column-reverse: Items are placed bottom to top.
+* `row`: Items are placed the same as the text direction.
+* `row-reverse`: Items are placed opposite to the text direction.
+* `column`: Items are placed top to bottom.
+* `column-reverse`: Items are placed bottom to top.
 
 ## combination
 Help the frogs find their lilypads using flex-direction and justify-content.
