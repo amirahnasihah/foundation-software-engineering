@@ -30,6 +30,22 @@ This CSS property defines the direction items are placed in the container, and a
 * `column-reverse`: Items are placed bottom to top.
 
 ## combination
+
+Help the frogs get to their own lilypads. Although they seem close, it will take both flex-direction and justify-content to get them there.
+
+Notice that when you set the direction to a reversed row or column, start and end are also reversed.
+
+```css
+#pond {
+	display: flex;
+	flex-direction: row-reverse;
+	justify-content: flex-end;
+}
+```
+
+
+
+
 Help the frogs find their lilypads using flex-direction and justify-content.
 
 Notice that when the flex direction is a column, justify-content changes to the vertical and align-items to the horizontal.
