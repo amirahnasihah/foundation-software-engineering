@@ -18,7 +18,9 @@ This CSS property aligns items **vertically** and accepts the following values:
 * `flex-end`: Items align to the bottom of the container.
 * `center`: Items align at the vertical center of the container.
 * `baseline`: Items display at the baseline of the container.
-* `stretch`: Items are stretched to fit the container.
+* `stretch`: Items are stretched to fit the container. (default)
+
+Aligns flex items along the cross axis.
 
 ## flex-direction
 
