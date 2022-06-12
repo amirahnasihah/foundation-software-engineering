@@ -156,3 +156,16 @@ You can use `align-content` to set how multiple lines are spaced apart from each
 * `stretch`: Lines are stretched to fit the container.
 
 This can be confusing, but `align-content` determines the spacing between lines, while `align-items` determines how the items as a whole are aligned within the container. When there is only one line, `align-content` has no effect.
+
+### summary
+
+CSS properties you've learned:
+
+* justify-content
+* align-items
+* flex-direction
+* order
+* align-self
+* flex-wrap
+flex-flow
+align-content
