@@ -109,3 +109,14 @@ Aligns a flex item along the cross axis, overriding the `align-items` value.
 
 Combine `order` with `align-self` to help the frogs to their destinations.
 
+```css
+#pond {
+	display: flex;
+	align-items: flex-start;
+}
+
+.yellow {
+	order: 1;
+	align-self: flex-end;
+}
+```
