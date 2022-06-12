@@ -74,3 +74,12 @@ Sometimes reversing the row or column order of a container is not enough. In the
 
 Use the `order` property to reorder the frogs according to their lilypads.
 
+```css
+#pond {
+	display: flex;
+}
+
+.yellow {
+	order: 1;
+}
+```
