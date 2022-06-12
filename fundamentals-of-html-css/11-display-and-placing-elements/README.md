@@ -169,3 +169,12 @@ CSS properties you've learned:
 * `flex-wrap`
 * `flex-flow`
 * `align-content`
+
+```css
+#pond {
+	display: flex;
+	flex-flow: column-reverse wrap-reverse;
+	justify-content: center;
+	align-content: space-between;
+}
+```
