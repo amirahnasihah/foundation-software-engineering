@@ -43,8 +43,17 @@ Notice that when you set the direction to a reversed row or column, start and en
 }
 ```
 
+Help the frogs find their lilypads using flex-direction and justify-content.
 
+Notice that when the flex direction is a column, justify-content changes to the vertical and align-items to the horizontal.
 
+```css
+#pond {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+}
+```
 
 Help the frogs find their lilypads using flex-direction and justify-content.
 
@@ -58,3 +67,4 @@ Notice that when the flex direction is a column, justify-content changes to the 
 	align-items: flex-end;
 }
 ```
+
