@@ -88,6 +88,10 @@ Use the `order` property to reorder the frogs according to their lilypads.
 
 Another property you can apply to individual items is `align-self`. This property accepts the same values as `align-items` and its value for the specific item.
 
+Aligns a flex item along the cross axis, overriding the `align-items` value.
+
+`flex-start` `flex-end` `center` `baseline` `stretch`
+
 ```css
 #pond {
 	display: flex;
