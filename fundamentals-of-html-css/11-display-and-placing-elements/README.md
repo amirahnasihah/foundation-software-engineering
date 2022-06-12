@@ -130,5 +130,14 @@ The frogs are all squeezed onto a single row of lilypads. Spread them out using 
 * `wrap-reverse`: Items wrap around to additional lines in reverse.
 
 ```css
-
+#pond {
+	display: flex;
+	flex-wrap: wrap;
+}
 ```
+
+## flex-flow
+
+The two properties flex-direction and flex-wrap are used so often together that the shorthand property flex-flow was created to combine them. This shorthand property accepts the value of the two properties separated by a space.
+
+For example, you can use flex-flow: row wrap to set rows and wrap them.
