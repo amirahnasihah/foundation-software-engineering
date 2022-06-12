@@ -12,7 +12,7 @@ This CSS property aligns items **horizontally** and accepts the following values
 
 ## align-items
 
-This CSS property aligns items vertically** and accepts the following values:
+This CSS property aligns items **vertically** and accepts the following values:
 
 * `flex-start`: Items align to the top of the container.
 * `flex-end`: Items align to the bottom of the container.
@@ -22,6 +22,14 @@ This CSS property aligns items vertically** and accepts the following values:
 
 ## flex-direction
 
+This CSS property defines the direction items are placed in the container, and accepts the following values:
+
+* row: Items are placed the same as the text direction.
+* row-reverse: Items are placed opposite to the text direction.
+* column: Items are placed top to bottom.
+* column-reverse: Items are placed bottom to top.
+
+## combination
 Help the frogs find their lilypads using flex-direction and justify-content.
 
 Notice that when the flex direction is a column, justify-content changes to the vertical and align-items to the horizontal.
