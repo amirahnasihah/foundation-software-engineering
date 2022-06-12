@@ -146,12 +146,12 @@ For example, you can use `flex-flow: row wrap` to set rows and wrap them.
 
 The frogs are spread all over the pond, but the lilypads are bunched at the top.
 
-You can use align-content to set how multiple lines are spaced apart from each other. This property takes the following values:
+You can use `align-content` to set how multiple lines are spaced apart from each other. This property takes the following values:
 
 * `flex-start`: Lines are packed at the top of the container.
 * `flex-end`: Lines are packed at the bottom of the container.
 * `center`: Lines are packed at the vertical center of the container.
-* space-between: Lines display with equal spacing between them.
+* `space-between`: Lines display with equal spacing between them.
 * `space-around`: Lines display with equal spacing around them.
 * `stretch`: Lines are stretched to fit the container.
 
