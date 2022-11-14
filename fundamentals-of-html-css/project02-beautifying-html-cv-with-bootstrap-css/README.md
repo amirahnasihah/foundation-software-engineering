@@ -1,5 +1,7 @@
 # Project 2: Beautifying an HTML CV with Bootstrap and CSS
 
+> sauce → [Bootstrap](https://getbootstrap.com/)
+
 ## Part 1: Bootstrap Modeling
 
 1. Sketch up a prototype for the structure and components you wish to add to your CV. You can just use pencil and paper to do the sketching.
