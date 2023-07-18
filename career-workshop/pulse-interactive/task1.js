@@ -8,4 +8,4 @@ function bar() {
 var foo = new bar();
 alert(foo.x);
 
-// 2
+// What value is alerted? 2

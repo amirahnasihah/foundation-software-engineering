@@ -1,3 +1,10 @@
+- [task 1](#task-1)
+- [task 2](#task-2)
+- [task 3: Number String](#task-3-number-string)
+- [task 4 MySQL](#task-4-mysql)
+- [task 5 (CMS)](#task-5-cms)
+- [task 6 (experience)](#task-6-experience)
+
 # task 1
 
 **HTML**
@@ -51,7 +58,7 @@ Here's how the code works step by step:
 
 So, the value alerted is `2`.
 
-# task 3
+# task 3: Number String
 
 JavaScript code below:
 
@@ -84,6 +91,11 @@ CREATE TABLE users (
     CreatedTime TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
     PRIMARY KEY (Username)
 );
+
+INSERT INTO users (Username, Password, Email) VALUES
+    ('john_doe', 'hashed_password_123', 'john@example.com'),
+    ('jane_smith', 'hashed_password_456', 'jane@example.com'),
+    ('user3', 'hashed_password_789', 'user3@example.com');
 ```
 
 
@@ -126,6 +138,9 @@ VARCHAR(4)
 
 2. Insert data into the table:
 
+INSERT INTO table_name (column1, column2, column3, ...)
+VALUES (value1, value2, value3, ...);
+
 ```sql
 INSERT INTO users (Username, Password, Email) VALUES
     ('john_doe', 'hashed_password_123', 'john@example.com'),
@@ -134,6 +149,28 @@ INSERT INTO users (Username, Password, Email) VALUES
 ```
 
 This statement inserts three sample records into the "users" table. You can adjust the data as needed for your specific use case. The "CreatedTime" field will automatically be populated with the current timestamp when each record is inserted.
+
+ex;
+
+| CustomerID  | CustomerName  | PostalCode  |
+|:-:|:-:|:-:|
+| 89  | White Clover Markets  | 98128  |
+| 90  | Wilman Kala  | 21240  |
+| 91  | Wolski  | 01-012  |
+
+```sql
+INSERT INTO Customers (CustomerName, ContactName, PostalCode)
+VALUES ('Cardinal', 'Tom B. Erichsen', '4006');
+```
+
+The selection from the "Customers" table will now look like this:
+
+| CustomerID  | CustomerName  | PostalCode  |
+|:-:|:-:|:-:|
+| 89  | White Clover Markets  | 98128  |
+| 90  | Wilman Kala  | 21240  |
+| 91  | Wolski  | 01-012  |
+| 92  | Cardinal  | 4006  |
 
 # task 5 (CMS)
 
