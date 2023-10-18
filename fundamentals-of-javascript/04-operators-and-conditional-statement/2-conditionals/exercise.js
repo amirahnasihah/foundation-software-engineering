@@ -10,7 +10,7 @@ name = "Daniel"
 danielsRole = "mentor"
 
 // Add your Code Here
-if (name === danielsRole) {
+if (name === "mentor") {
     console.log(`Hi, I'm ${name}, I'm a ${danielsRole}`)
 } else {
     console.log("Hi, I'm " + name + ", I'm a student.")
