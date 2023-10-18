@@ -34,3 +34,4 @@ console.log("Do person A and person B have the the same name?", sameName);
  *  Is there enough space in the room for all students and mentors? true
  *  Do person A and person B have the the same name? false
  */
+
