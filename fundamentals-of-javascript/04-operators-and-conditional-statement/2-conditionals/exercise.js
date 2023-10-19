@@ -13,7 +13,7 @@ danielsRole = "mentor"
 if (name === true ) {
     console.log(Hi, I'm ${name}, I'm a ${danielsRole}`)
 } else {
-    console.log(`Hi, I'm ${name}, I`)
+    console.log(`Hi, Im ${name}, I`)
 }
 
 /*
